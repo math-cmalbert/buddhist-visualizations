@@ -1,0 +1,20 @@
+{
+    "theme": "neutral",
+    "themeVariables": {
+      "primaryColor": "#ffd700",
+      "primaryTextColor": "#000",
+      "primaryBorderColor": "#7C0000",
+      "lineColor": "#333",
+      "secondaryColor": "#006100",
+      "tertiaryColor": "#0000cc",
+      "fontFamily": "trebuchet ms"
+    },
+    "flowchart": {
+      "htmlLabels": true,
+      "curve": "basis"
+    },
+    "mindmap": {
+      "padding": 10
+    },
+    "fontSize": 16
+  }
