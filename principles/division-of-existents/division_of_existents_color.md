@@ -1,35 +1,38 @@
-```mermaid
 flowchart TD
-    DE["Divisions of existents"]
+    DE[Divisions of existents]
+    IP[Impermanent Phenomena
+    change every moment
+    _______________
+    Three types:
+    1. Forms - tables, bodies, etc.
+    2. Consciousness - main minds, mental factors
+    3. Abstract Composites - person, time
 
-        IP["Impermanent Phenomena<br/>(change every moment)<br/>_______________<br/>
-                Three types:<br/>
-                        1. Forms (tables, bodies, etc.)<br/>
-                                2. Consciousness (main minds, mental factors)<br/>
-                                        3. Abstract Composites (person, time)<br/><br/>
-                                                Synonyms:<br/>
-                                                        • Functioning thing<br/>
-                                                                • Product<br/>
-                                                                        • Compounded phenomena<br/>
-                                                                                • Cause<br/>
-                                                                                        • Effect"]
+    Synonyms:
+    - Functioning thing
+    - Product
+    - Compounded phenomena
+    - Cause
+    - Effect]
+    PP[Permanent Phenomena
+    do not change
+    _______________
+    Examples of permanent phenomena:
+    - Non-compounded space
+    the mere lack of obstructive contact
+    - True cessation
+    - Emptiness - the absence of inherent existence
+    - The absence of an elephant in this room
 
-                                                                                            PP["Permanent Phenomena<br/>(do not change)<br/>_______________<br/>
-                                                                                                    Examples of permanent phenomena:<br/>
-                                                                                                            • Non-compounded space<br/>
-                                                                                                                    (the mere lack of obstructive contact)<br/>
-                                                                                                                            • True cessation<br/>
-                                                                                                                                    • Emptiness (the absence of inherent existence)<br/>
-                                                                                                                                            • The absence of an elephant in this room<br/><br/>
-                                                                                                                                                    Synonyms:<br/>
-                                                                                                                                                            • Non-product<br/>
-                                                                                                                                                                    • Non-compounded phenomenon"]
+    Synonyms:
+    - Non-product
+    - Non-compounded phenomenon]
+    DE --> IP
+    DE --> PP
 
-                                                                                                                                                                        DE --> IP
-                                                                                                                                                                            DE --> PP
-
-                                                                                                                                                                                classDef default fill:#ffffff,stroke:#333,stroke-width:2px, rx:10px, ry:10px;
-                                                                                                                                                                                    classDef mainNode fill:#f0f0f0,stroke:#000,stroke-width:3px, rx:15px, ry:15px;
-                                                                                                                                                                                        class DE mainNode;
-                                                                                                                                                                                            class IP fill:#f9f,stroke:#333,stroke-width:2px; 
-                                                                                                                                                                                                class PP fill:#ccf,stroke:#333,stroke-width:2px;
+    classDef main fill:#f0f0f0,stroke:#000
+    classDef imp fill:#ADD8E6,stroke:#333
+    classDef perm fill:#DDA0DD,stroke:#333
+    class DE main
+    class IP imp
+    class PP perm
